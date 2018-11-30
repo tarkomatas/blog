@@ -28,11 +28,13 @@ markdown: kramdown
 theme: garth-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 feed:
   categories:
     - rstats
 
+remote_theme: daviddarnes/garth
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
