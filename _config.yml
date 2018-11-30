@@ -17,7 +17,7 @@ title: MYHAPPYDATA BLOG
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   l'art pour l'art free-time data related projects and other IT topics
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
