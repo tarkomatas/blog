@@ -7,7 +7,7 @@
     {% assign date = currentdate %}
   {% endif %}
 	    <li class="item item--post">
-				<a href="{{ post.url }}">{{ post.title }}</a>
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         <span>
           {% for categories in post.categories %}
             #{{ categories }}
