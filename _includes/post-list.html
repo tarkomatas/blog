@@ -1,0 +1,19 @@
+{% for post in site.posts %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h1 class="year" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <ul class="list list--posts">
+    {% assign date = currentdate %}
+  {% endif %}
+	    <li class="item item--post">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+        <span>
+          {% for categories in post.categories %}
+            #{{ categories }}
+          {% endfor %}
+        </span>
+				<span class="date"> {{ post.date	| date: "%m/%d/%Y" }} </span>
+			</li>
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}

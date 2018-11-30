@@ -1,0 +1,28 @@
+---
+author: tarkomatas
+comments: true
+date: 2017-04-08 15:00:05+00:00
+layout: post
+title: 'Life without Shiny #1: Tableau'
+category:
+- tableau
+---
+
+I just wondered what about the competitors of [Rstudio Shiny](https://shiny.rstudio.com/). At first I would say I really like Shiny and I also absolutely a big fan of R. This is just an experiment for me and a kind of knowledge increasement because I haven't really tried anything in addition to Shiny.
+
+In this little series I will introduce some known alternatives. I will try to reproduce [this](http://myhappydata.com/apps/satrday_contest/) dashboard which was made in R. In the chosen program I will try to create all of the functionality which it has. I chose this dashboard because
+
+  * of its simplicity
+  * the data source of it is free and I have already known it
+  * it has some popular chart types like line chart, pie chart or map (also there is a table on the dashboard)
+  * it has some basic required functions like drop-down filters, single and multiple plot selectors
+
+I chose [Tableau](https://www.tableau.com/) at first because this is the market leader BI report tool. Unfortunately Tableau is not a free and open-source program (unlike R), but luckily there is a free version of it called [Tableau Public](https://public.tableau.com/s/). It is mainly for educational use and also for journalists. Of course it has many restrictions for example you can't make private dashboards or charts but now this is perfect for me to just try it.
+
+I have never used this program before it so at first I have done an online course called: [Tableau 10 for Data Scientists](https://www.lynda.com/Tableau-tutorials/Tableau-10-Data-Scientists/476621-2.html?srchtrk=index%3a17%0alinktypeid%3a2%0aq%3atableau%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2). I recommend it btw. The duration of the course is around 2 hours. After it I could do the dashboard quite easily. It lasted 2-3 hours to create it:
+
+[Analyze of Ferenc Liszt International Airport database](https://public.tableau.com/profile/tam.s.mark.#!/vizhome/ANALYZEOFFERENCLISZTINTERNATIONALAIRPORTDATABASE/Countryspecificaggregation)
+
+I begin to like this program because it is really so simple and user friendly and there is a big user community behind of it. For example If I got stuck I could find a solution after 5 minutes Google search. The simplicity is the greatest strength of it (for example you can easily create maps with a drag and drop method because the countries are automatically recognized by it names and if there is a problem during the recognition you easily make the correction manually) so I very curious about how it can cope with the advanced expectations. Also you can transform the data and create new functions and variables within the program, it has an own language. There are opportunities to publish the output. For example you can embed the dashboard to your website (like I did) after publishing it to Tableau Public Server. This kind of feature is missing for me when I use Shiny.
+
+It is also possible to [use R within Tableau](https://www.tableau.com/solutions/topic/r). This will be the next topic which I would like to know better. I have already understood the basics now I would like to know the limitations of it compared to Shiny.
