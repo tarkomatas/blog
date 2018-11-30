@@ -13,9 +13,9 @@ layout: default
     {{ content }}
 
   </article>
-
+	{% include allow-comments.html %}
   {% if page.comments %}
-    { % include allow-comments.html %}
+
   {% endif %}
 
 </main>
