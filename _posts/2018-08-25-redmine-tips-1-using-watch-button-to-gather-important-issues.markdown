@@ -3,7 +3,6 @@ author: tarkomatas
 comments: true
 date: 2018-08-25 14:58:11+00:00
 layout: post
-link: http://blog.myhappydata.com/2018/08/25/redmine-tips-1-using-watch-button-to-gather-important-issues/
 title: 'Redmine tips #1: Using ''Watch'' button to gather important issues'
 category:
 - redmine

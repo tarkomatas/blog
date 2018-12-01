@@ -12,6 +12,6 @@ I tried to reproduce the [FiveThirtyEight age estimator](https://fivethirtyeight
 
 I tried to create something similar like [this](http://rhiever.github.io/name-age-calculator/index.html?Gender=M&Name=Thomas) in R. I used [Shiny](https://shiny.rstudio.com/) and [Plotly](https://plot.ly/) for the visualization. Here is the result of it:
 
-<iframe src="https://myhappydata.com/apps/keresztnevek_ev_kalk/" style="border: none; width: 100%; height: 580px;"></iframe>
+<iframe src="https://tarkomatas.shinyapps.io/keresztnevek_ev_kalk/" style="border: none; width: 100%; height: 580px;"></iframe>
 
 The dark-grey line shows the number of birth of the selected name in each years, while the blue color area is the number of birth which was adjusted to the life table of Hungary. The vertical red line shows the median living year of birth of the selected name.

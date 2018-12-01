@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   l'art pour l'art free-time data related projects and other IT topics
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "tarkomatas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: tarkomatas
+github_username:  tarkomatas
 logo: assets/logo.jpg
 
 # Build settings

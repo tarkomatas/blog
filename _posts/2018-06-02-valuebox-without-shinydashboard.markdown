@@ -25,6 +25,6 @@ Reproduce the [valueBox](https://www.rdocumentation.org/packages/shinydashboard/
 
 **Example:**
 
-<iframe src="https://myhappydata.com/apps/valuebox/" style="border: none; width: 100%; height: 780px;"></iframe>
+<iframe src="https://myhappydata.shinyapps.io/value_box/" style="border: none; width: 100%; height: 780px;"></iframe>
 
 The source code of the Shiny app can be found [here](https://github.com/tarkomatas/valuebox).

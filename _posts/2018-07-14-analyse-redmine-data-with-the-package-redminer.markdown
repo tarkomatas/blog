@@ -3,7 +3,6 @@ author: tarkomatas
 comments: true
 date: 2018-07-14 09:14:58+00:00
 layout: post
-link: http://blog.myhappydata.com/2018/07/14/analyse-redmine-data-with-the-package-redminer/
 title: Analyse Redmine data with the package redmineR
 category:
 - rstats

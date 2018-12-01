@@ -10,7 +10,7 @@ category:
 
 I just wondered what about the competitors of [Rstudio Shiny](https://shiny.rstudio.com/). At first I would say I really like Shiny and I also absolutely a big fan of R. This is just an experiment for me and a kind of knowledge increasement because I haven't really tried anything in addition to Shiny.
 
-In this little series I will introduce some known alternatives. I will try to reproduce [this](http://myhappydata.com/apps/satrday_contest/) dashboard which was made in R. In the chosen program I will try to create all of the functionality which it has. I chose this dashboard because
+In this little series I will introduce some known alternatives. I will try to reproduce [this](https://tarkomatas.shinyapps.io/SATRDAY_CONTEST/) dashboard which was made in R. In the chosen program I will try to create all of the functionality which it has. I chose this dashboard because
 
   * of its simplicity
   * the data source of it is free and I have already known it

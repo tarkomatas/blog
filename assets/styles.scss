@@ -26,7 +26,7 @@ a:hover {
 }
 
 .footer {
-  border-top: 1px solid #5a90d9;
+  border-top: none;
 }
 
 .small {
@@ -74,6 +74,53 @@ a:hover {
 
 @media screen and (min-width: 40em) {
       .typeset ul li, .typeset ol li {
-        margin-left: 2rem; 
+        margin-left: 2rem;
       }
+}
+
+footer .footer-container {
+  width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.contacts {
+	display: inline-block;
+}
+
+.contacts a{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	line-height: 80px;
+	margin: 0px 20px;
+	/* for the animation */
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.contacts a:hover {
+	background-color: white;
+	color: #5a90d9;
+}
+
+@media (max-width: 640px) {
+  .post-list {
+    text-align: center;
+  }
+
+  .item--post a {
+    font-size: 1.6rem;
+  }
+
+  .year {
+    font-size: 2.5rem;
+  }
+
+  .item--post .date {
+      float: none;
+  }
 }

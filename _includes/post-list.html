@@ -1,3 +1,4 @@
+<div class="post-list">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -8,12 +9,15 @@
   {% endif %}
 	    <li class="item item--post">
 				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <div class="inline">
         <span>
           {% for categories in post.categories %}
             #{{ categories }}
           {% endfor %}
         </span>
 				<span class="date"> {{ post.date	| date: "%m/%d/%Y" }} </span>
+        </div>
 			</li>
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
+</div>
