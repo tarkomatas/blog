@@ -107,7 +107,15 @@ footer .footer-container {
 	color: #5a90d9;
 }
 
+.inline {
+  display:inline;
+}
+
 @media (max-width: 640px) {
+  .inline {
+    display:block;
+  }
+
   .post-list {
     text-align: center;
   }
