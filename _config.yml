@@ -25,7 +25,6 @@ logo: assets/logo.jpg
 
 # Build settings
 markdown: kramdown
-theme: garth-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
