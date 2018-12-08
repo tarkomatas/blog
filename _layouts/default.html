@@ -17,9 +17,7 @@
 			<link rel="shortcut icon" href="{{ site.logo }}">
 		{% endif %}
 
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
+    {% include analytics.html %}
 		{% feed_meta %}
 
 	</head>
